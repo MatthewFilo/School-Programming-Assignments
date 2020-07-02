@@ -1,0 +1,15 @@
+	In this project, we had to program our own Binary Search Tree that would use characters rather then numbers to be stored inside of it. We had to implement functions such as functions to insert
+nodes into our BST, we had to create a transverse preorder function, we had to create a function that would search the BST, create a function to delete a node out of the BST, create a function to
+count the number of leaves in the BST and create a function that would show the sibling of a node.
+
+	One of the hardest parts about this assignment was easily the delete node function. One had to be so precise with all of the cases that owuld occur and would have to program each case of deletion
+into the function for it to properly work. You had to program a chunk of code for if the left and the right children of the node was null, another chunk of code for if one or the other right or left fields
+was null and another chunk of code for if the node had both left and right children. The process was also very tedious for me as I each time I think I had fixed the function, I was wrong and mistaken
+as another step was needed in order to fully fix the function. I went about fixing this by trial and error, and then I eventually used online resources that helped explain what cases I would have to take
+in order to properly program the delete function of a BST and what the different cases would be when programming a delete function. I also had a slight difficulty implementing recursion within some of
+the functions as not because I felt it was too difficult to implement, but because it wasn't something I was thinking of implementing as part of the solution. Overall once I implemented recursion I saw
+how it made sense to have that be my solution and felt overall happy with the solution. I got the idea for the solution by looking up online resources of BST's and seeing different implementations of the
+same functions from online code.
+
+	Overall the assignment was by far a difficult and tedious one, but I felt more accomplished then ever when finishing it as this data structure used nodes, classes, objects, recursion, and all that
+fun stuff, but once I finished I felt like I truly understand more of how the programming of data structures work and why they can be so important.

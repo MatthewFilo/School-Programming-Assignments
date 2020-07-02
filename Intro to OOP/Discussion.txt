@@ -1,0 +1,17 @@
+	In this file we had to use the concept of inheritance and polymorphism to design this database. We also had to design a driver file to be able to
+fully test our code, inputting different monthly profits to be able to see how much money each of the employee's in the database made.
+
+	One issue that I had was implementing the concept of inheritance into the base and derived classes. At first I was very confused on how to 
+implement the concept, and struggled for a few hours on it. I overcame this by taking a small break, coming back to the program, and then reading
+up on a few google guides on how the concept of inheritance works in C++ and exactly what the base and derived classes were. 
+
+	Another issue I had was with the concept of polymorphism, but I find it funny looking back that I had such a hard time implementing polymorphism
+within the calculate salary function as it was actually really easy! I kept implementing the function incorrectly in my employee.cpp file for the calculate 
+salary function but once I made the function virtual in my employee.h file, it allowed me to have different return values based on the class
+that the function was implemented into and being called by, thus fixing my problem by returning 0 to the function in the employee.cpp file
+and making the function virtual in the employee.h file.
+
+	Overall, this was a really fun assignment as I have not had much experience with OOP outside of python, so for me it was interesting to see
+how it worked inside of C++. The assignment itself was fun and was one of my favorite assignments yet and I really enjoyed how we were able to
+program with OOP as, from what I have heard, I heard it is used alot within programming interviews and real world applications, and after
+programming this assignment and seeing the efficiency of OOP, I can understand why!

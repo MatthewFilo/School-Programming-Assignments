@@ -1,0 +1,24 @@
+	In this project, we had to create a doubly linked list and implement some functions and create a menu that allowed the user to insert data at the end of the list, delete
+data from the list, display the list, calculate the average of the list and calculate the sum of the list. The user was given a menu by use of a switch statement and from there
+was then prompted to enter an option number, if anything else was selected, it would prompt the user to enter a value given by the options provided. The linked list was put into
+List1.h and List.cpp where the functions were programmed. Inside of a linked list is what are called "nodes", where the class for nodes was provided in node.h and the construction
+for them was put in node.cpp. Each node had a prev and a next, with the prev pointing to the node before and and the next pointing the the node after it. This is the purpose of 
+the linked list as all the nodes are linked together, but with a doubly linked list, the nodes can also point to the node before it, whereas in a regular linked list, it cannot.
+The functions were implemented, and tested and worked successfully.
+
+	This code was one of the most fun programs I've programmed yet. There were many hours that went by where I was frustrated as I felt I understood the concept of linked list
+but the syntax of programming one was getting to me. I thought that head and tail were different compared to next and prev but there were the same thing, and once I figured that out
+I had barely any problems programming the rest of the assignment.
+
+	One issue I had was that when I deleted the last variable of the linked list and then tried to insert a new one at the end, The new one would not display and would not be there.
+I then realized that I had to introduce an if statement saying that if the node i am deleting is the last one, then I must set the new last to be the prev of the original last.
+I also had many issues figuring out why my insertatend function was not working until I realized that you cannot utilize that function if the previous node is a null. So then I had
+come up with the solution that if the list was empty, the insertatend function would insert the number and make it the first variable of the list, hence my if statement in there.
+	
+	Another issue I had come up with was how to program constructors properly, as it has been a while since I have programmed one, and then once I figured out how to properly program
+them, I was able to use that knowledge to fulfill the extra credit portion of this assignment, making the node.h and the node.cpp files and modularizing the program into 5 files,
+thus earning the extra credit.
+	
+	Other then that, I did not have too many problems with the assignment. I felt as I had understood linked list pretty clearly, and now programming one has given me further insight
+into how they truly work, which helped expand my knowledge and made me feel more comfortable with them. Overall, this was a truly engaging assignment and I was glad to be given
+the assignment and be able to figure it out.

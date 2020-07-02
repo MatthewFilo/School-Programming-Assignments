@@ -1,0 +1,23 @@
+	In this project, we formed a class variable named Sphere and gave it multiple different functions
+to find out information about the sphere from it's radius, such functions were functions implemented to find out
+things such as the Sphere's diameter, Circumfrence, Area, and it's Volume. This was done by programming the functions
+into the Sphere.cpp file and prototyping said functions within the Sphere.h file as well as making our class there.
+In the class we had to make the functions public in order for them to be used outside of the class and then I set
+my radius variable to be private so that nothing outside of the class could alter it. Once the class was made and
+the functions were working, I tested this out in the driver.cpp file, which utilizes the functions and classes
+from the two other files. Once I tested out multiple scenarios, I was finished making this program.
+
+	One of the issues I had with this assignment was working out the syntax of things such as the overloading
+operator and the default constructor as I had to learn about the purpose of the colon and what it does for the
+default constructor. In regards to the overloading operator, I had to figure out how to properly program, as this
+is the first time I have ever heard of overloading in operator within my programming experiences, and once I figured
+out how to properly program it, I understood the purpose of doing such a thing as well as learning how to use it
+with a display function as well. I am glad I did learn how to properly program one as I now see the uses and how 
+convenient it would be for other programmers / users to use my code with the operator.
+
+	I have made my best attempt to test all scenarios within this program and I do not believe that I missed
+anything that should've been tested. I have made it so that the program will not properly compile if anything other
+then an integer or float value is trying to be set within the setRadius function. I have also include the "ifndef"
+within the .h file in order to prevent errors from including the Sphere.h file twice in the project.
+
+	
